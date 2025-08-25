@@ -1,0 +1,7 @@
+# Python Packages.
+
+1. Cricbuzz API Keys 
+2. Streamlit - UI
+3. MYSQL Database - Relational Database
+4. Pandas - DataFrames
+
