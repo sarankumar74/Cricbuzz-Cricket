@@ -1,5 +1,6 @@
 # PIP Packages
 # MYSQL Connector
+# Pandas Packages
 import streamlit as st
 import mysql.connector
 import pandas as pd
