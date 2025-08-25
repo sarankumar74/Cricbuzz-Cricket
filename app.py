@@ -5,6 +5,8 @@ import streamlit as st
 import mysql.connector
 import pandas as pd
 
+# Database 
+# Commits
 host = 'localhost'
 user = 'root'
 password = '8148'
