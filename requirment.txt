@@ -4,4 +4,4 @@
 2. Streamlit - UI
 3. MYSQL Database - Relational Database
 4. Pandas - DataFrames
-
+5. Host Platforms Render
