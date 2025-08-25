@@ -6,7 +6,8 @@ import mysql.connector
 import pandas as pd
 
 # Database 
-# Commits
+# Changed
+
 host = 'localhost'
 user = 'root'
 password = '8148'
