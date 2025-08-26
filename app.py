@@ -5,8 +5,7 @@ import streamlit as st
 import mysql.connector
 import pandas as pd
 
-# Database 
-# Changed
+# Commit Changed
 
 host = 'localhost'
 user = 'root'
