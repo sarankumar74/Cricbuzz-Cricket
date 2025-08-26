@@ -62,15 +62,15 @@ match_session = st.sidebar.selectbox(
 
 #  Live Match Stats 
 if match_session == 'Live Match':
-    st.title('Live Match')
+    st.title('🌍Live Match')
     st.write('No Live Matches are Availabel.')
 
 elif match_session == 'Upcoming Match':
-    st.title('Upcoming Match')
+    st.title('🏷️Upcoming Match')
     st.write('No Upcoming Matches are Availabel.')
 
 elif match_session == 'Recent Match':
-    st.title("Reacent Matches")
+    st.title("🔁Reacent Matches")
     df = app.db.fetch(" select seriesName, team1, team2, venue, city,status from reasent; ")
     st.dataframe(df)
 
@@ -93,17 +93,17 @@ crud_option = st.sidebar.selectbox("Choose CRUD Operation:", ['Create', 'Read', 
 
 #  Live Match Stats 
 if option_stat == 'Batting Players':
-    st.title("Batting Players")
+    st.title(" 🏏Batting Players")
     df = app.db.fetch("SELECT `rank`, name, country, rating, points FROM batsman")
     st.dataframe(df)
 
 elif option_stat == 'Bowling Players':
-    st.title("Bowling Players")
+    st.title("🎳Bowling Players")
     df = app.db.fetch("SELECT `rank`, name, country, rating, points FROM bowlers WHERE rating >= 600")
     st.dataframe(df)
 
 elif option_stat == 'International Players':
-    st.title("International Players")
+    st.title("🚀International Players")
     df = app.db.fetch("SELECT matchType, seriesname, team1_name, team2_name, venue_ground FROM international")
     st.dataframe(df)
 
@@ -189,7 +189,7 @@ elif option_query == 'Query14':
 
 # CREATE Operation
 if crud_option == 'Create':
-    st.title(" Create Player")
+    st.title(" 🎉 Create Player")
     with st.form("create_form_unique"):
         full_name = st.text_input("Full Name")
         role = st.text_input("Role")
@@ -217,7 +217,7 @@ if crud_option == 'Create':
 
 # READ Operation
 elif crud_option == 'Read':
-    st.title("Read Players")
+    st.title("📖Read Players")
     df = app.db.fetch(
         "SELECT id, full_name, role, country, runs, matches FROM sample_players ORDER BY  id LIMIT 35"
     )
@@ -227,7 +227,7 @@ elif crud_option == 'Read':
 
 # UPDATE Operation
 elif crud_option == 'Update':
-    st.title(" Update Player Role")
+    st.title(" 📈Update Player Role")
     with st.form("update_form_unique"):
         player_id = st.number_input("Player ID", min_value=1, step=1)
         new_role = st.text_input("New Role")
@@ -245,7 +245,7 @@ elif crud_option == 'Update':
 
 # DELETE Operation
 elif crud_option == 'Delete':
-    st.title(" Delete Player")
+    st.title(" ❌Delete Player")
     with st.form("delete_form_unique"):
         player_id = st.number_input("Player ID", min_value=1, step=1)
         submitted = st.form_submit_button("Delete Player")
