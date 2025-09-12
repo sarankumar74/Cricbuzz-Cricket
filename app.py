@@ -8,7 +8,7 @@ import pandas as pd
 # Commit Changed
 
 host = 'localhost'
-user = 'root'
+user = 'userroot'
 password = '8745'
 database = 'Cricbuzz'  
 
