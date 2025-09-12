@@ -9,7 +9,7 @@ import pandas as pd
 
 host = 'localhost'
 user = 'root'
-password = '8148'
+password = '8745'
 database = 'Cricbuzz'  
 
 # Class 
