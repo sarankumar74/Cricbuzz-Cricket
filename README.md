@@ -77,15 +77,15 @@ The goal is to bridge **live sports data** with **structured analytical insights
 <summary>📸 Click to view Streamlit UI screenshots</summary>
 
 #### Home Page  
-![Home Page]<img width="1855" height="907" alt="Crickbuzz Home Page" src="https://github.com/user-attachments/assets/8781a1d1-7669-461b-b444-723160357bce" />
+<img width="1855" height="907" alt="Crickbuzz Home Page" src="https://github.com/user-attachments/assets/8781a1d1-7669-461b-b444-723160357bce" />
 
 
 #### Results Page  
-![Result Page 1]<img width="1839" height="873" alt="Crickbuzz Result Page 1" src="https://github.com/user-attachments/assets/8a656765-0cc1-46b3-9cbe-11a45077bf7f" />
+<img width="1839" height="873" alt="Crickbuzz Result Page 1" src="https://github.com/user-attachments/assets/8a656765-0cc1-46b3-9cbe-11a45077bf7f" />
 
 
 #### Results Page  
-![Result Page 2]<img width="1822" height="871" alt="Crickbuzz Result Page 2" src="https://github.com/user-attachments/assets/9958bee7-e872-40ec-ab34-44094ec202e4" />
+<img width="1822" height="871" alt="Crickbuzz Result Page 2" src="https://github.com/user-attachments/assets/9958bee7-e872-40ec-ab34-44094ec202e4" />
 
 
 ---
