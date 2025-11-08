@@ -1,7 +1,17 @@
 🏏 Cricbuzz LiveStats: Real-Time Cricket Insights & SQL-Based Analytics
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql&logoColor=white)
+![API Handling](https://img.shields.io/badge/Process-API%20Handling-brightgreen)
+![SHAP](https://img.shields.io/badge/Explainability-SHAP-blueviolet)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?logo=streamlit&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Sports%2C%20Entertainment%2C%20Investment-navy)
+
+----
+
 📘 Overview
-**Cricbuzz LiveStats** is a **real-time cricket analytics dashboard** that integrates live match data from the **Cricbuzz API** with a **SQL-powered backend**.  
+**Cricbuzz LiveStats** is a **real-time cricket analytics dashboard** that integrates live match data from the **Cricbuzz API** with a **SQL-powered backend**.
+
 This project showcases **data engineering, visualization, and analytics capabilities** by combining **Python, SQL, Streamlit, and REST APIs** to deliver actionable insights for cricket enthusiasts, analysts, and developers.
 
 🎯 Problem Statement
@@ -13,6 +23,8 @@ Develop a comprehensive **cricket analytics web application** that integrates li
 - 🛠️ Full CRUD operations for player and match data management  
 
 The goal is to bridge **live sports data** with **structured analytical insights** for various business and educational applications.
+
+----
 
 💼 Business Use Cases
 
@@ -41,6 +53,8 @@ The goal is to bridge **live sports data** with **structured analytical insights
 - Player momentum tracking and venue-based analysis  
 - Predictive modeling using structured cricket datasets  
 
+----
+
 🧠 Skills Takeaway
 - **Python** – API integration, data manipulation  
 - **SQL** – Query optimization, data storage & analytics  
@@ -48,6 +62,7 @@ The goal is to bridge **live sports data** with **structured analytical insights
 - **JSON** – Data interchange format for API responses  
 - **REST API** – Real-time data communication  
 
+----
 
 🗺️ Key Development Steps
 
